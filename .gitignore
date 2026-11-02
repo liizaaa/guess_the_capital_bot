@@ -1,0 +1,37 @@
+# Переменные окружения и секреты
+.env
+.env.*
+
+# Оставляем пример файла окружения
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Тестовые изображения
+test_map.png
+test.jpg
+test_image.png
+
+# Временные файлы
+*.log
+*.tmp
